@@ -1,0 +1,113 @@
+/* 宽度1200px  */
+.HomePage{
+    background-color: #F5F5F5;
+}
+.tts{
+    width:100%;
+    height:30px;
+    background-color: #CCEAE2;
+}
+/* 顶部 */
+.topBar{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+/* 轮播图内容 */
+.boder_bot{
+    border-bottom: 2px solid #FF4466;
+    box-sizing: border-box;
+    background-color: white;
+}
+.tabSec{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+  
+}
+.tabSec_left{
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 256px;
+    height: 40px;
+    padding: 5px 10px ;
+    box-sizing: border-box;
+    background-color: #FF4466;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px 5px 0 0  ;
+}
+.tabSec i {
+    float: left;
+    display: block;
+    padding-top: 2px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    color: white;
+}
+.tabSec i img{
+    width: 18px;
+    height: 18px;
+}
+/* banner上的目录 */
+.BannerMenu{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 256px;
+    height: 442px;
+    z-index: 10;
+}
+
+/* 特价 */
+.tabSec_right{
+    float: left;
+    width: 140px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.tabSec_right a{
+    display: block;
+    width: 140px;
+    color: black;
+    line-height: 28px;
+    text-decoration: none;
+    border-right: 1px solid rgba(198, 196, 196, 0.7);
+    box-sizing: border-box;
+}
+/* 大图 */
+.showBanner{
+    width: 100%;
+    height: 440px;
+    background-color: pink;
+}
+
+/* 特殊模块 */
+.SpeModule{
+    width: 100%;
+    height: 670px;
+    margin-bottom: 40px;
+}
+/* 基本模块 */
+.NomModule{
+    width: 100%;
+    height: 613px;
+    margin-top: 20px;
+    /* background-color: rgb(133, 0, 0); */
+}
+
+/* footmodel */
+.footBar{
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+    margin-top: 50px;
+}

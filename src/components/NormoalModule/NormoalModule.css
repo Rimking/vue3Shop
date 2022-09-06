@@ -1,0 +1,218 @@
+#NormoalModule{
+    width: 1200px;
+    height: 613px;
+    /* background-color: ; */
+    margin: 0 auto;
+    padding-top: 20px ;
+    box-sizing: border-box;
+}
+/* titleBar */
+.titleBar{
+    width: 100%;
+    height: 24px;
+    margin-bottom: 10px;
+    border-left: 10px solid #FFA1B8;
+    box-sizing: border-box;
+}
+.tilTask{
+    float: left;
+    width: auto;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.titleBar ul{
+    float: left;    
+    margin-left: 20px;
+}
+.titleBar ul li{
+    float: left;
+    font-size:14px;
+    line-height: 24px;
+}
+.titleBar ul li a{
+    padding: 0 20px;
+    border-right: 1px solid black;
+}
+.titleBar ul li a:hover{
+    color: #FF4466;
+}
+
+
+
+/* 内容 */
+#NormoalModule .specConent{
+    width: 1200px;
+    height: 559px;
+}
+
+/* 类型图 */
+#NormoalModule .typeDiagram{
+    float: left;
+    width: 230px;
+    height: 559px;
+    margin-right: 10px;
+    /* background-color: rgb(157, 255, 185); */
+}
+#NormoalModule .typeDiagram a img{
+    width: 230px;
+    height: 559px;
+}
+/* 右侧双层滚动 */
+.norBanner{
+    float: left;
+    width: 660px;
+    height: 559px;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    padding:21px 0 0 25px;
+    /* margin-right:21px; */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.swiptenWids{
+    width: 1980px;
+}
+.norSwitem{
+    float: left;
+    width: 618px;
+    height: 509px;
+    margin-right: 22px;
+}
+/* 单个 */
+.norBanitem{
+    float: left;
+    width: 190px;
+    height: 244px;
+    /* background-color: rgb(0, 170, 255); */
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.norBanitem:nth-child(3n){
+    margin-right: 0px;
+}
+
+
+.norBanitem a{
+    display: block;
+    float: left;
+    width: 190px;
+    height: 190px;
+    margin-bottom: 5px;
+}
+.norBanitem a img{
+    width: 190px;
+    height: 190px;
+}
+.norBanms{
+    width: 190px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.norBanMon{
+    width: 190px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #FF447F;
+    margin-top: 4px;
+}
+
+
+
+/* 下方的小点 */
+.norBarpoint{
+    float: left;
+    width: 618px;
+    height: 20px;
+}
+.norBarpoint ul{
+    width: 618px;
+    height: 20px;
+    text-align: center;
+}
+.norBarpoint ul li{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: rgb(167, 167, 167);
+    margin-right: 12px ;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+.norBarpoint ul li:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.active{
+    background-color: black !important;
+}
+
+
+/* 290px 559px  */
+.hotTems{
+    float: left;
+    width: 290px;
+    height: 559px;
+    background-color:#FFFFFF;
+}
+
+/* 热门商品推荐 */
+.hotTielsCons{
+    width: 290px;
+    height: 76px;
+    /* background-color: pink; */
+    padding: 28px 13px 26px 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+/* 单个推荐 */
+.aItemHot{
+    width: 274px;
+    display: block;
+    height: 93px;
+    margin: 0 auto 21px;
+    /* background-color: red; */
+}
+.aItemHot .imgAim{
+    float: left;
+    width: 93px;
+    height: 93px;
+    margin-right: 10px;
+}
+.aItemHot .imgAim img{
+    width: 93px;
+    height: 93px;
+}
+/*  */
+.textHotSp{
+    float: left;
+    width: 170px;
+    height: 76px;
+    /* background-color: yellow; */
+}
+.textHotSp .text_Pcons{
+    width: 170px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 22px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.textHotSp .text_Money{
+    width: 170px;
+    height: 32px;
+    font-size: 20px;
+    color:red ;
+}

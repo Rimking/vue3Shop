@@ -1,0 +1,207 @@
+#NavigationBar {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    /* background-color: yellow; */
+}
+
+/* logo 和 目录 */
+.lgAndml {
+    float: left;
+    width: 210px;
+    height: 100px;
+    /* background-color: rgb(250, 108, 132); */
+}
+.logo{
+    float: left;
+    width: 130px;
+    height: 100px;
+}
+.logo a img{
+    width: 130px;
+    height: 100px;
+}
+.ml{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 100px;
+    margin-left: 30px;
+    line-height: 100px;
+    font-size: 14px;
+}
+.ml i,.ml i img {
+    width: 17px;
+    height: 12px;
+}
+/* 鼠标悬浮在目录部分的时候 */
+.mlItems{
+    position: absolute;
+    left: -160px;
+    top: 80px;
+    z-index: 11;
+    width: 700px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    border: 1px solid rgb(213, 213, 213,.7);
+
+}
+.themeMarket{
+    float: left;
+    width: 329px;
+    height: auto;
+    /* background-color: rgb(255, 185, 254); */
+    padding: 30px 10px 5px 30px ;
+    box-sizing: border-box;
+    line-height: 20px;
+    margin-right: 20px;
+  
+}
+.themeMarket:nth-child(1){
+    border-right: 1px solid rgb(213, 213, 213,.7);
+
+}
+.themeMarket p{
+    width: 100%;
+    height: 25px;
+    /* background-color: red; */
+    margin: 0;
+}
+.themeMarket .themeUl{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.themeUl li{
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    height: 35px;
+    margin-right: 30px;
+    line-height: 35px;
+    list-style: none;
+}
+
+
+
+/* 顶部左边 */
+.topLeft{
+    float: right;
+    width: 914px;
+    height: 76px;
+    padding-top: 28px;
+    box-sizing: border-box;
+    /* background-color: rgb(206, 255, 128); */
+}
+/* 搜索框 */
+.topIps{
+    float: left;
+    width: 492px;
+    height: 48px;
+    margin-left: 60px;
+    /* background-color: rgb(255, 188, 188); */
+}
+/* inpus */
+.searchInpus{
+    float:left;
+    width: 434px;
+    height: 48px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: #F7F7F7;
+}
+.searchBtns{
+    width: 50px;
+    height: 48px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    background-color: #8D8D8D;
+}
+.searchBtns:hover{
+    background-color: #8D8D8D;
+}
+
+
+.smItem{
+    float: left;
+    width: 342px;
+    height: 48px;
+    margin-left: 20px;
+    /* background-color: rgb(180, 190, 255); */
+}
+.smItem ul{
+    float: left;
+    width: 200px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.smItem ul li{
+    width: 42px;
+    height: 48px;
+    box-sizing: border-box;
+    list-style: none;
+    text-align: center;
+    font-size:14px;
+    line-height: 17px;
+}
+
+.smItem ul li i img{
+    width: 24px;
+    height: 24px;
+}
+
+
+/*登录状态 */
+.selfNews{
+    float: right;
+    width: 142px;
+    height: 48px;
+    /* background-color: rgb(185, 213, 157); */
+}
+.notLogin,.alLogin{
+    width: 142px;
+    height: 48px;
+}
+/* 未登录 */
+.notLogin{
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.wLogin{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+} 
+.wLogin img{
+    top: 10px;
+    width: 25px;
+    height: 25px;
+}
+.wz,.userNmae{
+    float: left;
+    width: 40px;
+    height: 25px;
+    line-height: 24px;
+}
+/*已经登录 */
+.userNmae{
+    float: left;
+    width: 60px;
+    text-align: left;
+    overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

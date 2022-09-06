@@ -1,0 +1,29 @@
+
+
+#masBanner{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #CCEAE2;
+}
+/* 大图 */
+.bannerImage{
+    width: 1134px;
+    height: 440px;
+    background-color: rgb(184, 7, 36);
+    margin: 0 auto;
+}
+.bannerImage img{
+    width: 1134px;
+    height: 440px;
+}
+/* 左侧目录 */
+/* .leftMenus{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 256px;
+    height: 100%;
+    background-color: rgb(255, 62, 62);
+} */

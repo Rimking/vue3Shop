@@ -1,0 +1,54 @@
+
+#BannerMenu{
+    width: 256px;
+    height: 442px;
+    box-sizing: border-box;
+    background:#F5FBF9;
+}
+/* 每一个目录 */
+.banMenItem{
+    width: 240px;
+    height: 33px;
+    display: flex;
+    font-size: 12px;
+    color: black;
+    padding-left: 15px;
+}
+.banMenItem:hover{
+    border-left:2px solid #FF4466 ;
+    padding-left: 13px;
+    background-color: #FFFFFF;
+}
+.banMenItem li{
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+.banMenItem li a{
+    /* color: black; */
+    text-decoration: none;
+    border: none;
+}
+.banMenItem li a:hover{
+    color:       orange;
+}
+.banMenItem li:nth-child(1){
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.banMenItem li:nth-last-child{
+    margin-right: 0;
+}
+.banMenItem li span img{
+    width: 11px;
+    height:12px;
+}
+/* 字体变红 */
+.fontColor_ind{
+    color: #FF4466;
+}
+.fontColor_black{
+    color: black;
+}
+
+

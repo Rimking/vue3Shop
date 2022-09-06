@@ -1,0 +1,218 @@
+#SpecialModule{
+    width: 1200px;
+    height: 670px;
+    /* background-color: rgb(174, 0, 0); */
+    margin: 0 auto;
+    padding-top: 20px ;
+    box-sizing: border-box;
+}
+/* titleBar */
+.titleBar{
+    width: 100%;
+    height: 24px;
+    /* background-color: rgb(229, 158, 255); */
+    margin-bottom: 10px;
+    border-left: 10px solid #FFA1B8;
+    box-sizing: border-box;
+}
+.tilTask{
+    float: left;
+    width: auto;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.titleBar ul{
+    float: left;    
+    margin-left: 20px;
+}
+.titleBar ul li{
+    float: left;
+    font-size:14px;
+    line-height: 24px;
+}
+.titleBar ul li a{
+    padding: 0 20px;
+    border-right: 1px solid black;
+}
+.titleBar ul li a:hover{
+    color: #FF4466;
+}
+
+
+
+/* 内容 */
+#SpecialModule .specConent{
+    width: 1200px;
+    height: 616px;
+    /* background-color: rgb(137, 220, 255); */
+}
+
+/* 类型图 */
+#SpecialModule .typeDiagram{
+    float: left;
+    width: 230px;
+    height: 616px;
+    margin-right: 20px;
+    background-color: rgb(157, 255, 185);
+}
+#SpecialModule .typeDiagram a img{
+    width: 230px;
+    height: 616px;
+}
+/* 右侧滚动 */
+.rigScend{
+    float: left;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 950px;
+    height: 408px;
+    overflow: hidden;
+}
+.itemsBody{
+    width: 2850px;
+    height: 408px;
+}
+/* 定位左右按钮 */
+.itemLeft{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width:25px;
+    height: 54px;
+    margin-top: -20px;
+    color: white;
+    background:rgba(0, 0, 0,.6);
+    z-index: 10;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.itemRight{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 25px;
+    height: 54px;
+    margin-top: -20px;
+    color: white;
+    background:rgba(0, 0, 0,.6);
+    z-index: 10;
+    border-radius:  5px 0 0 5px; 
+    cursor: pointer;
+}
+.itemRight img,.itemLeft img{
+    width: 20px;
+    height:20px;
+    margin-top: 17px;
+}
+
+
+
+.switm_fl{
+    float: left;
+    width: 198px;
+    height: 376px;
+    padding: 16px;
+    margin-right: 10px;
+    background-color:#FFFFFF;
+}
+.switm_fl:nth-child(4n){
+    margin-right: 0;
+}
+.switm_fl a img{
+    width: 198px;
+    height: 297px;
+}
+.switm_fl .tradeName{
+    width: 198px;
+    height: 45px;
+    font-size: 16px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.switm_fl .tradePrace{
+    width: 198px;
+    height: 24px;
+    font-size: 22px;
+    color:red ;
+}
+/* 第一个ul */
+.thrbar{
+    float: left;
+    width: 950px;
+    height: 198px;
+    /* background-color: pink; */
+    margin-top: 10px;
+}
+.thrbar .fitst li{
+    float: left;
+    width: 230px;
+    height: 103px;
+    margin-right: 10px;
+    /* background-color: green; */
+    margin-bottom: 10px;
+}
+.thrbar .fitst li a img{
+    width: 100%;
+    height: 100%;
+}
+.thrbar .fitst li:nth-child(1){
+    width: 470px;
+}
+.thrbar .fitst li:last-child{
+    margin: 0;
+}
+/* 第二个 */
+.thrbar .seclod {
+    float: left;
+    width: 950px;
+    height: 83px;
+    
+}
+.thrbar .seclod li{
+    float: left;
+    width: 230px;
+    height: 83px;
+    margin-right: 10px;
+    background-color: white;
+}
+.thrbar .seclod li:last-child{
+    margin: 0;
+}
+/* 第二个 */
+.desModel{
+    float: left;
+    margin: 15px 0 0 10px;
+    width: 137px;
+    height: 54.4px;
+}
+.dSecTitle,.dFuTitle{
+    float: left;
+    width: 137px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+}
+.dFuTitle{
+    height: 22.4px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #666666;
+}
+.delImgMod{
+    float: left;  
+} 
+.delImgMod img{
+    width: 83px;
+    height: 83px;
+    transition: all 0.3s;
+}
+.delImgMod img:hover{
+    transform:translateY(-5px);
+}
